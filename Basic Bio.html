@@ -6,36 +6,60 @@
             h1 {
                 text-align: center;
                 color: white;
-                padding: 35px;
+                padding: 20px;
             }
+            
+            
+            
             img {
-                width: 150px;
-                height: 150px;
+                width: 250px;
+                height: 250px;
+            }
+
+            #dividerHeader {
+                height: 25px;
+                background-color: lightgray;
             }
             
             #dividerWhole {
-                float:center;
                 background-color: black;
                 display: block;
+                align-content: center;
+                
             }
             #dividerBody {
-                background-color: gray;
+                background-color: lightgrey;
+                display:flex;
+                flex-wrap:wrap;
+             
             }
             #dividerLeft {
-                float:left;
-                padding:20px;
+                height: 250px;
+                width: 300px;
+                flex:start;
+                align-content: left ;
+                padding-bottom: 100px;
+                padding-right: 300px;
+                
             }
 
             #dividerCenter {
-                align-content: left;
-                padding:20px;
-                width: 300px;
+                font-size: x-large;
+                height: 250px;
+                width: 250px;
+                align-content: center;
+                padding-bottom: 100px;
+                
             }
 
             #dividerRight {
-                float:left;
-                padding:20px;
-                width:50%;
+                height: 250px;
+                width: 250px;
+                float: right;
+                padding-bottom: 100px;
+                padding-left: 300px;
+             
+            
             }
 
             
@@ -43,22 +67,25 @@
     </head>
     <body>
         <div ID="dividerWhole">
-                <h1>Student Biography</h1> 
-            <div id="dividerBody">
-                <h2>Joseph Williamson: Future Coding Master</h2>
+                    <h1>Student Biography</h1> 
+    
+                    
+                
+                <div id="dividerBody">
                     <div id="dividerLeft">
+                         <h2>Joseph Williamson</h2>
                          <img src="C:\Users\Joseph\Downloads\Family Photo.jpg" alt="Joe's Beautiful Family">
                     </div>
                     <div id="dividerCenter">
                         <p>Joseph was in sales for many years, so it's pretty obvious why he's here.</p> 
-                        <p>Using the power of his amazing daughter(pictured left; ain't she cute?) for motivation, he'll become a Coding Superstar!!</p>
+                        <p>Using the power of his amazing daughter (pictured left; ain't she cute?) for motivation, he'll become a Coding Superstar!!</p>
                     </div>
                     <div id="dividerRight">
                             <h2>Contact Information</h2>
                                 <ul>
-                                    <li><a href="http://www.linkedin.com/in/joseph-williamson-a8b42584" target="_blank">LinkedIn</a></li>
-                                    <li><a href="https://github.com/jmbw88" target="_blank">GitHub</a></li>
-                                    <li><a href="mailto:jmbw1988@gmail.com" target="_blank"> Email</a></li>
+                                    <li style=font-size:x-large><a href="http://www.linkedin.com/in/joseph-williamson-a8b42584" target="_blank">LinkedIn</a></li>
+                                    <li style=font-size:x-large><a href="https://github.com/jmbw88" target="_blank">GitHub</a></li>
+                                    <li style=font-size:x-large><a href="mailto:jmbw1988@gmail.com" target="_blank"> Email</a></li>
                                 </ul>
                     </div>
             </div>
