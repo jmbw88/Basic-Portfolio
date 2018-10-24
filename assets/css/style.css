@@ -1,5 +1,5 @@
 body {
-    background-color: #cccccc;
+    background-color: whitesmoke;
     margin: 0;
 }
 
@@ -54,6 +54,7 @@ body {
     float: left;
     margin-right: 8%;
     padding-bottom: 30px;
+    font-size: small;
 
    
 }
